@@ -1,0 +1,17 @@
+[2017/08/22 23:26:09][INFO](scratch.py:22) ------ start ------
+[2017/08/22 23:26:25][ERROR](scratch.py:107) 'module' object has no attribute 'ifelse'
+[2017/08/22 23:26:25][ERROR](scratch.py:108) Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 48, in <module>
+    model.add(Dropout(0.5))
+  File "D:\code\python\Anaconda2\lib\site-packages\keras\models.py", line 475, in add
+    output_tensor = layer(self.outputs[0])
+  File "D:\code\python\Anaconda2\lib\site-packages\keras\engine\topology.py", line 602, in __call__
+    output = self.call(inputs, **kwargs)
+  File "D:\code\python\Anaconda2\lib\site-packages\keras\layers\core.py", line 111, in call
+    training=training)
+  File "D:\code\python\Anaconda2\lib\site-packages\keras\backend\theano_backend.py", line 1481, in in_train_phase
+    x = theano.ifelse.ifelse(training, x, alt)
+AttributeError: 'module' object has no attribute 'ifelse'
+
+[2017/08/22 23:26:25][ERROR](utils.py:69) S001
+[2017/08/22 23:26:25][INFO](scratch.py:111) ------ end ------

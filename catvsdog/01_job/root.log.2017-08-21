@@ -1,0 +1,332 @@
+[2017/08/21 14:49:30][INFO](scratch.py:15) ------ start ------
+[2017/08/21 14:49:30][ERROR](scratch.py:106) [Errno 2] No such file or directory: '/home/ai/lock'
+[2017/08/21 14:49:30][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 16, in <module>
+    utils.lock()
+  File "D:\coding\python\AI\catvsdog\01_job\utils.py", line 58, in lock
+    lock_file = open(config.lock_file, 'w')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ai/lock'
+
+[2017/08/21 14:49:30][ERROR](utils.py:68) S001
+[2017/08/21 14:49:30][INFO](scratch.py:110) ------ end ------
+[2017/08/21 14:53:16][INFO](scratch.py:15) ------ start ------
+[2017/08/21 14:53:16][ERROR](scratch.py:106) [Errno 2] No such file or directory: '/home/ai/lock'
+[2017/08/21 14:53:16][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 16, in <module>
+    utils.lock()
+  File "D:\coding\python\AI\catvsdog\01_job\utils.py", line 58, in lock
+    lock_file = open(config.lock_file, 'w')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ai/lock'
+
+[2017/08/21 14:53:16][ERROR](utils.py:68) S001
+[2017/08/21 14:53:16][INFO](scratch.py:110) ------ end ------
+[2017/08/21 14:56:33][INFO](scratch.py:15) ------ start ------
+[2017/08/21 14:56:33][ERROR](scratch.py:106) [Errno 2] No such file or directory: '/home/ai/lock'
+[2017/08/21 14:56:33][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "scratch.py", line 16, in <module>
+    utils.lock()
+  File "D:\coding\python\AI\catvsdog\01_job\utils.py", line 58, in lock
+    lock_file = open(config.lock_file, 'w')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ai/lock'
+
+[2017/08/21 14:56:33][ERROR](utils.py:68) S001
+[2017/08/21 14:56:33][INFO](scratch.py:110) ------ end ------
+[2017/08/21 14:56:44][INFO](bottleneck.py:15) ------ start ------
+[2017/08/21 14:56:44][ERROR](bottleneck.py:113) [Errno 2] No such file or directory: '/home/ai/lock'
+[2017/08/21 14:56:44][ERROR](bottleneck.py:114) Traceback (most recent call last):
+  File "bottleneck.py", line 16, in <module>
+    utils.lock()
+  File "D:\coding\python\AI\catvsdog\01_job\utils.py", line 58, in lock
+    lock_file = open(config.lock_file, 'w')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ai/lock'
+
+[2017/08/21 14:56:44][ERROR](utils.py:68) S001
+[2017/08/21 14:56:44][INFO](bottleneck.py:117) ------ end ------
+[2017/08/21 14:56:50][INFO](finetuning.py:15) ------ start ------
+[2017/08/21 14:56:50][ERROR](finetuning.py:106) [Errno 2] No such file or directory: '/home/ai/lock'
+[2017/08/21 14:56:50][ERROR](finetuning.py:107) Traceback (most recent call last):
+  File "finetuning.py", line 16, in <module>
+    utils.lock()
+  File "D:\coding\python\AI\catvsdog\01_job\utils.py", line 58, in lock
+    lock_file = open(config.lock_file, 'w')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ai/lock'
+
+[2017/08/21 14:56:50][ERROR](utils.py:68) S001
+[2017/08/21 14:56:50][INFO](finetuning.py:110) ------ end ------
+[2017/08/21 14:59:17][INFO](scratch.py:15) ------ start ------
+[2017/08/21 14:59:17][ERROR](scratch.py:106) [Errno 2] No such file or directory: '/home/ai/lock'
+[2017/08/21 14:59:17][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 16, in <module>
+    utils.lock()
+  File "D:\coding\python\AI\catvsdog\01_job\utils.py", line 58, in lock
+    lock_file = open(config.lock_file, 'w')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ai/lock'
+
+[2017/08/21 14:59:17][ERROR](utils.py:68) S001
+[2017/08/21 14:59:17][INFO](scratch.py:110) ------ end ------
+[2017/08/21 14:59:29][INFO](predict.py:24) ------ start ------
+[2017/08/21 14:59:29][ERROR](predict.py:99) [Errno 2] No such file or directory: '/home/ai/lock'
+[2017/08/21 14:59:29][ERROR](predict.py:100) Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/predict.py", line 25, in <module>
+    utils.lock()
+  File "D:\coding\python\AI\catvsdog\01_job\utils.py", line 58, in lock
+    lock_file = open(config.lock_file, 'w')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ai/lock'
+
+[2017/08/21 14:59:29][ERROR](utils.py:68) S001
+[2017/08/21 14:59:29][INFO](predict.py:103) ------ end ------
+[2017/08/21 15:00:26][INFO](scratch.py:15) ------ start ------
+[2017/08/21 15:00:26][ERROR](scratch.py:106) [Errno 2] No such file or directory: '/home/ai/lock'
+[2017/08/21 15:00:26][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 16, in <module>
+    utils.lock()
+  File "D:\coding\python\AI\catvsdog\01_job\utils.py", line 58, in lock
+    lock_file = open(config.lock_file, 'w')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ai/lock'
+
+[2017/08/21 15:00:26][ERROR](utils.py:68) S001
+[2017/08/21 15:00:26][INFO](scratch.py:110) ------ end ------
+[2017/08/21 15:14:22][INFO](scratch.py:15) ------ start ------
+[2017/08/21 15:14:22][ERROR](scratch.py:106) [Errno 2] No such file or directory: '/home/ai/lock'
+[2017/08/21 15:14:22][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 16, in <module>
+    utils.lock()
+  File "D:\coding\python\AI\catvsdog\01_job\utils.py", line 58, in lock
+    lock_file = open(config.lock_file, 'w')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ai/lock'
+
+[2017/08/21 15:14:22][ERROR](utils.py:68) S001
+[2017/08/21 15:14:22][INFO](scratch.py:110) ------ end ------
+[2017/08/21 15:14:35][INFO](scratch.py:15) ------ start ------
+[2017/08/21 15:14:35][ERROR](scratch.py:106) [Errno 2] No such file or directory: '/home/ai/lock'
+[2017/08/21 15:14:35][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 16, in <module>
+    utils.lock()
+  File "D:\coding\python\AI\catvsdog\01_job\utils.py", line 58, in lock
+    lock_file = open(config.lock_file, 'w')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ai/lock'
+
+[2017/08/21 15:14:35][ERROR](utils.py:68) S001
+[2017/08/21 15:14:35][INFO](scratch.py:110) ------ end ------
+[2017/08/21 15:19:07][INFO](scratch.py:15) ------ start ------
+[2017/08/21 15:19:07][ERROR](scratch.py:106) [Errno 2] No such file or directory: '/home/ai/lock'
+[2017/08/21 15:19:07][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 16, in <module>
+    utils.lock()
+  File "D:\coding\python\AI\catvsdog\01_job\utils.py", line 58, in lock
+    lock_file = open(config.lock_file, 'w')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ai/lock'
+
+[2017/08/21 15:19:07][ERROR](utils.py:68) S001
+[2017/08/21 15:19:07][INFO](scratch.py:110) ------ end ------
+[2017/08/21 15:24:53][INFO](scratch.py:15) ------ start ------
+[2017/08/21 15:24:53][ERROR](scratch.py:106) [Errno 2] No such file or directory: '/home/AI'
+[2017/08/21 15:24:53][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 16, in <module>
+    utils.lock()
+  File "D:\coding\python\AI\catvsdog\01_job\utils.py", line 58, in lock
+    lock_file = open(config.lock_file, 'w')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/AI'
+
+[2017/08/21 15:24:53][ERROR](utils.py:68) S001
+[2017/08/21 15:24:53][INFO](scratch.py:110) ------ end ------
+[2017/08/21 15:25:01][INFO](scratch.py:15) ------ start ------
+[2017/08/21 15:25:01][ERROR](scratch.py:106) [Errno 2] No such file or directory: '/home/AI/'
+[2017/08/21 15:25:01][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 16, in <module>
+    utils.lock()
+  File "D:\coding\python\AI\catvsdog\01_job\utils.py", line 58, in lock
+    lock_file = open(config.lock_file, 'w')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/AI/'
+
+[2017/08/21 15:25:01][ERROR](utils.py:68) S001
+[2017/08/21 15:25:01][INFO](scratch.py:110) ------ end ------
+[2017/08/21 15:25:11][INFO](scratch.py:15) ------ start ------
+[2017/08/21 15:25:11][ERROR](scratch.py:106) [Errno 2] No such file or directory: '/home/AI/catvsdog/'
+[2017/08/21 15:25:11][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 16, in <module>
+    utils.lock()
+  File "D:\coding\python\AI\catvsdog\01_job\utils.py", line 58, in lock
+    lock_file = open(config.lock_file, 'w')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/AI/catvsdog/'
+
+[2017/08/21 15:25:11][ERROR](utils.py:68) S001
+[2017/08/21 15:25:11][INFO](scratch.py:110) ------ end ------
+[2017/08/21 15:34:58][INFO](scratch.py:15) ------ start ------
+[2017/08/21 15:34:58][ERROR](utils.py:68) B002
+[2017/08/21 15:35:17][INFO](scratch.py:15) ------ start ------
+[2017/08/21 15:35:17][ERROR](utils.py:68) B002
+[2017/08/21 15:36:15][INFO](predict.py:24) ------ start ------
+[2017/08/21 15:36:15][ERROR](utils.py:68) B002
+[2017/08/21 15:38:13][INFO](scratch.py:15) ------ start ------
+[2017/08/21 15:38:13][ERROR](utils.py:68) B002
+[2017/08/21 15:38:47][INFO](scratch.py:15) ------ start ------
+[2017/08/21 15:38:47][ERROR](utils.py:68) B002
+[2017/08/21 19:14:51][INFO](scratch.py:21) ------ start ------
+[2017/08/21 19:14:52][ERROR](scratch.py:106) Failed to import pydot. You must install pydot and graphviz for `pydotprint` to work.
+[2017/08/21 19:14:52][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 23, in _check_pydot
+    pydot.Dot.create(pydot.Dot())
+  File "D:\code\python\Anaconda3\lib\site-packages\pydot_ng\__init__.py", line 1890, in create
+    'GraphViz\'s executables not found')
+pydot_ng.InvocationException: GraphViz's executables not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 58, in <module>
+    plot_model(model, to_file='model.png')
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 131, in plot_model
+    dot = model_to_dot(model, show_shapes, show_layer_names, rankdir)
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 52, in model_to_dot
+    _check_pydot()
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 27, in _check_pydot
+    raise ImportError('Failed to import pydot. You must install pydot'
+ImportError: Failed to import pydot. You must install pydot and graphviz for `pydotprint` to work.
+
+[2017/08/21 19:14:52][ERROR](utils.py:68) S001
+[2017/08/21 19:14:52][INFO](scratch.py:110) ------ end ------
+[2017/08/21 19:17:52][INFO](scratch.py:21) ------ start ------
+[2017/08/21 19:17:52][ERROR](scratch.py:106) Failed to import pydot. You must install pydot and graphviz for `pydotprint` to work.
+[2017/08/21 19:17:52][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 23, in _check_pydot
+    pydot.Dot.create(pydot.Dot())
+  File "D:\code\python\Anaconda3\lib\site-packages\pydot_ng\__init__.py", line 1890, in create
+    'GraphViz\'s executables not found')
+pydot_ng.InvocationException: GraphViz's executables not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 58, in <module>
+    plot_model(model, to_file='model.png')
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 131, in plot_model
+    dot = model_to_dot(model, show_shapes, show_layer_names, rankdir)
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 52, in model_to_dot
+    _check_pydot()
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 27, in _check_pydot
+    raise ImportError('Failed to import pydot. You must install pydot'
+ImportError: Failed to import pydot. You must install pydot and graphviz for `pydotprint` to work.
+
+[2017/08/21 19:17:52][ERROR](utils.py:68) S001
+[2017/08/21 19:17:52][INFO](scratch.py:110) ------ end ------
+[2017/08/21 19:19:51][INFO](scratch.py:21) ------ start ------
+[2017/08/21 19:19:51][ERROR](scratch.py:106) Failed to import pydot. You must install pydot and graphviz for `pydotprint` to work.
+[2017/08/21 19:19:51][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 23, in _check_pydot
+    pydot.Dot.create(pydot.Dot())
+  File "D:\code\python\Anaconda3\lib\site-packages\pydot_ng\__init__.py", line 1890, in create
+    'GraphViz\'s executables not found')
+pydot_ng.InvocationException: GraphViz's executables not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 58, in <module>
+    plot_model(model, to_file='model.png')
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 131, in plot_model
+    dot = model_to_dot(model, show_shapes, show_layer_names, rankdir)
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 52, in model_to_dot
+    _check_pydot()
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 27, in _check_pydot
+    raise ImportError('Failed to import pydot. You must install pydot'
+ImportError: Failed to import pydot. You must install pydot and graphviz for `pydotprint` to work.
+
+[2017/08/21 19:19:51][ERROR](utils.py:68) S001
+[2017/08/21 19:19:51][INFO](scratch.py:110) ------ end ------
+[2017/08/21 19:32:47][INFO](scratch.py:21) ------ start ------
+[2017/08/21 19:32:48][ERROR](scratch.py:106) Failed to import pydot. You must install pydot and graphviz for `pydotprint` to work.
+[2017/08/21 19:32:48][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 23, in _check_pydot
+    pydot.Dot.create(pydot.Dot())
+  File "D:\code\python\Anaconda3\lib\site-packages\pydot_ng\__init__.py", line 1890, in create
+    'GraphViz\'s executables not found')
+pydot_ng.InvocationException: GraphViz's executables not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 58, in <module>
+    plot_model(model, to_file='model.png')
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 131, in plot_model
+    dot = model_to_dot(model, show_shapes, show_layer_names, rankdir)
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 52, in model_to_dot
+    _check_pydot()
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 27, in _check_pydot
+    raise ImportError('Failed to import pydot. You must install pydot'
+ImportError: Failed to import pydot. You must install pydot and graphviz for `pydotprint` to work.
+
+[2017/08/21 19:32:48][ERROR](utils.py:68) S001
+[2017/08/21 19:32:48][INFO](scratch.py:110) ------ end ------
+[2017/08/21 19:37:25][INFO](scratch.py:21) ------ start ------
+[2017/08/21 19:37:26][ERROR](scratch.py:106) Failed to import pydot. You must install pydot and graphviz for `pydotprint` to work.
+[2017/08/21 19:37:26][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 23, in _check_pydot
+    pydot.Dot.create(pydot.Dot())
+  File "D:\code\python\Anaconda3\lib\site-packages\pydot_ng\__init__.py", line 1890, in create
+    'GraphViz\'s executables not found')
+pydot_ng.InvocationException: GraphViz's executables not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 58, in <module>
+    plot_model(model, to_file='model.png')
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 131, in plot_model
+    dot = model_to_dot(model, show_shapes, show_layer_names, rankdir)
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 52, in model_to_dot
+    _check_pydot()
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 27, in _check_pydot
+    raise ImportError('Failed to import pydot. You must install pydot'
+ImportError: Failed to import pydot. You must install pydot and graphviz for `pydotprint` to work.
+
+[2017/08/21 19:37:26][ERROR](utils.py:68) S001
+[2017/08/21 19:37:26][INFO](scratch.py:110) ------ end ------
+[2017/08/21 19:48:29][INFO](scratch.py:21) ------ start ------
+[2017/08/21 19:48:30][ERROR](scratch.py:106) Failed to import pydot. You must install pydot and graphviz for `pydotprint` to work.
+[2017/08/21 19:48:30][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 23, in _check_pydot
+    pydot.Dot.create(pydot.Dot())
+  File "D:\code\python\Anaconda3\lib\site-packages\pydot_ng\__init__.py", line 1890, in create
+    'GraphViz\'s executables not found')
+pydot_ng.InvocationException: GraphViz's executables not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 58, in <module>
+    plot_model(model, to_file='model.png')
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 131, in plot_model
+    dot = model_to_dot(model, show_shapes, show_layer_names, rankdir)
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 52, in model_to_dot
+    _check_pydot()
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 27, in _check_pydot
+    raise ImportError('Failed to import pydot. You must install pydot'
+ImportError: Failed to import pydot. You must install pydot and graphviz for `pydotprint` to work.
+
+[2017/08/21 19:48:30][ERROR](utils.py:68) S001
+[2017/08/21 19:48:30][INFO](scratch.py:110) ------ end ------
+[2017/08/21 20:25:53][INFO](scratch.py:21) ------ start ------
+[2017/08/21 20:25:53][ERROR](scratch.py:106) Failed to import pydot. You must install pydot and graphviz for `pydotprint` to work.
+[2017/08/21 20:25:53][ERROR](scratch.py:107) Traceback (most recent call last):
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 23, in _check_pydot
+    pydot.Dot.create(pydot.Dot())
+  File "D:\code\python\Anaconda3\lib\site-packages\pydot_ng\__init__.py", line 1890, in create
+    'GraphViz\'s executables not found')
+pydot_ng.InvocationException: GraphViz's executables not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/coding/python/AI/catvsdog/01_job/scratch.py", line 58, in <module>
+    plot_model(model, to_file='model.png')
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 131, in plot_model
+    dot = model_to_dot(model, show_shapes, show_layer_names, rankdir)
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 52, in model_to_dot
+    _check_pydot()
+  File "D:\code\python\Anaconda3\lib\site-packages\keras\utils\vis_utils.py", line 27, in _check_pydot
+    raise ImportError('Failed to import pydot. You must install pydot'
+ImportError: Failed to import pydot. You must install pydot and graphviz for `pydotprint` to work.
+
+[2017/08/21 20:25:53][ERROR](utils.py:68) S001
+[2017/08/21 20:25:53][INFO](scratch.py:110) ------ end ------
