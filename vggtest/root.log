@@ -1,0 +1,11 @@
+[2017/08/21 15:49:40][INFO](vggtest.py:22) ------ start ------
+[2017/08/21 15:49:40][ERROR](vggtest.py:60) [Errno 2] No such file or directory: '/home/ai/lock'
+[2017/08/21 15:49:40][ERROR](vggtest.py:61) Traceback (most recent call last):
+  File "vggtest.py", line 23, in <module>
+    utils.lock()
+  File "D:\coding\python\lunania-ai\vggtest\utils.py", line 58, in lock
+    lock_file = open(config.lock_file, 'w')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ai/lock'
+
+[2017/08/21 15:49:40][ERROR](utils.py:68) S001
+[2017/08/21 15:49:40][INFO](vggtest.py:64) ------ end ------
