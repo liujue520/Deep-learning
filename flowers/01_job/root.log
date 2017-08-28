@@ -1,0 +1,11 @@
+[2017/08/21 15:53:18][INFO](train.py:15) ------ start ------
+[2017/08/21 15:53:18][ERROR](train.py:119) [Errno 2] No such file or directory: '/home/ai/lock'
+[2017/08/21 15:53:18][ERROR](train.py:120) Traceback (most recent call last):
+  File "D:/coding/python/lunania-ai/flowers/01_job/train.py", line 16, in <module>
+    utils.lock()
+  File "D:\coding\python\lunania-ai\flowers\01_job\utils.py", line 58, in lock
+    lock_file = open(config.lock_file, 'w')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ai/lock'
+
+[2017/08/21 15:53:18][ERROR](utils.py:68) S001
+[2017/08/21 15:53:18][INFO](train.py:123) ------ end ------
